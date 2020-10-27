@@ -120,6 +120,5 @@ int damage = (double)attack/monsterIt->getDefense()*strength;
 void Hero::death()
 {
     std::cout << "The hero is dead, long live the hero!\n";
-    return ;
 }
 
